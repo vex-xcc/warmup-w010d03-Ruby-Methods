@@ -1,5 +1,3 @@
-![Find the Difference MEME](https://memegenerator.net/img/instances/67410466/i-will-find-you-explain-the-difference.jpg)
-
 # Find the Difference
 
 Given two strings s and t.
