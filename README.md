@@ -21,12 +21,19 @@ Explanation: 'e' is the letter that was added.
 ### starter
 
 ```ruby
+s = "abcd"
+t = "baedc"
 
 def find_difference(s , t)
+  for i in 0..(s.length)
+  if s.chars.sort.join[i] != t.chars.sort.join[i]
+   t.chars.sort.join[i]
+  end
+  end
+   t.chars.sort.last
+  end
 
-end
-
-find_difference("abcd", "baedc") # e
+  p find_difference(s , t) # e
 
 ```
 
